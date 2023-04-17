@@ -22,8 +22,8 @@ const RaceList: FC<RaceListProps> = ({
             <tr>
               <th>Race Name</th>
               <th>Location</th>
+	      <th>Race Details</th>
               <th>Organiser</th>
-              <th>Race Details</th>
               <th>Race Date</th>
               <th>Update</th>
               <th>Delete</th>

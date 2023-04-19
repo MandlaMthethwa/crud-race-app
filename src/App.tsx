@@ -4,7 +4,7 @@ import RaceList from './components/RaceList';
 import EditModal from './components/Update';
 import Header from './components/Header';
 import { Race, racesReducer, State } from './reducer/racesReducer';
-
+import { Analytics } from'@vercel/analytics/react';
 const initialState: State = {
   races: []
 };

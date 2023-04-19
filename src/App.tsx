@@ -53,6 +53,7 @@ function App() {
         toggleModal={toggleModal}
         dispatch={dispatch}
       />
+       <Analytics/>
     </div>
   );
 }
